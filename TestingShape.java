@@ -16,7 +16,7 @@ public class TestingShape {
 		System.out.printf("Area is %.3f", r1.computeArea());
 		System.out.println();
 
-		//Part2: add your code here ////////////////////////////////
+		// Part2
         System.out.println();
         System.out.println("Part 2: ");
 
@@ -29,7 +29,7 @@ public class TestingShape {
         for (int i = 0; i < shapeList.length; i++)      // prints out each shape's area
             System.out.printf("Area of the shape " + (i + 1) + " is %.3f\n", shapeList[i].computeArea());
 
-		//Part3: add your code here ////////////////////////////////
+		// Part 3
         System.out.println();
         System.out.println("Part 3: ");
         Circle[] circleList = new Circle[3];
@@ -52,7 +52,7 @@ public class TestingShape {
             System.out.println(circleList[i]);
         System.out.println();
 
-		//Part4: add your code here /////////////////////////////////
+		// Part 4
         System.out.println("Part 4: ");
 
         selectionSortD(circleList);
